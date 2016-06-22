@@ -243,5 +243,5 @@ for i in sections:
 for t in textentry_fields:
     v[t].action = textfield_should_return
 v['goBtn'].action = button_tapped
-v.present('sheet')
+v.present(style='full_screen', orientations=['portrait'])
 v.flex = 'H'
